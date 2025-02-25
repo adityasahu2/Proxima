@@ -1,0 +1,93 @@
+{
+    "coordinator": [
+        {
+            "id": "1",
+            "img": "s1.jpg",
+            "name": "Dr. John Doe",
+            "designation": "Head of Department",
+            "department": "Computer Science"
+        },
+        {
+            "id": "2",
+            "img": "s1.jpg",
+            "name": "Dr. John Doe",
+            "designation": "Head of Department",
+            "department": "Computer Science"
+        },
+        {
+            "id": "3",
+            "img": "s1.jpg",
+            "name": "Dr. John Doe",
+            "designation": "Head of Department",
+            "department": "Computer Science"
+        },
+        {
+            "id": "4",
+            "img": "s1.jpg",
+            "name": "Dr. John Doe",
+            "designation": "Head of Department",
+            "department": "Computer Science"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "logo": "vv.png",
+            "category": "iot",
+            "title": "Smart Home Automation",
+            "detail": "IoT-based home automation system with voice control",
+            "description": "An innovative IoT-based solution that transforms traditional homes into intelligent living spaces. This project seamlessly integrates various smart devices and sensors to create an automated, energy-efficient, and secure home environment.",
+            "technologies": [
+                "Raspberry Pi",
+                "Arduino",
+                "Python",
+                "Node.js",
+                "React",
+                "MongoDB",
+                "MQTT",
+                "TensorFlow"
+            ],
+            "video": "video.mp4",
+            "gallery": [
+                {
+                    "id": "1",
+                    "image": "sample.jpg"
+                },
+                {
+                    "id": "2",
+                    "image": "sample.jpg"
+                },
+                {
+                    "id": "3",
+                    "image": "sample.jpg"
+                }
+            ],
+            "developers": [
+                {
+                    "id": "1",
+                    "image":"s1.jpg",
+                    "name": "John Doe",
+                    "role": "Lead Developer",
+                    "github": "https://github.com/johndoe",
+                    "linkedin": "https://www.linkedin.com/in/johndoe"
+                },
+                {
+                    "id": "2",
+                    "image":"s1.jpg",
+                    "name": "Jane Doe",
+                    "role": "Project Manager",
+                    "github": "https://github.com/janedoe",
+                    "linkedin": "https://www.linkedin.com/in/janedoe"
+                },
+                {
+                    "id": "3",
+                    "image":"s1.jpg",
+                    "name": "Michael Doe",
+                    "role": "Software Engineer",
+                    "github": "https://github.com/michaeldoe",
+                    "linkedin": "https://www.linkedin.com/in/michaeldoe"
+                }
+            ]
+        }
+    ]
+}
