@@ -80,10 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 <img src="Assets/${project.id}/${developer.image}" alt="Developer ${developer.id}" class="developer-img">
                 <h3 class="developer-name">${developer.name}</h3>
                 <p class="developer-role">${developer.role}</p>
-                <div class="social-links">
-                    <a href="${developer.github}"><i class="fab fa-github"></i></a>
-                    <a href="${developer.linkedin}"><i class="fab fa-linkedin"></i></a>
-                </div>
             </div>`;
                         document.getElementById('project-developers').innerHTML += developerElement;
                     })

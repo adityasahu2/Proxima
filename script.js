@@ -106,7 +106,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="Assets/${project.id}/${project.logo}" alt="Project ${project.id}" class="project-img">
                 <div class="project-caption">
                     <h3>${project.title}</h3>
-                    <p>${project.detail}</p>
                 </div>
             </div>`;
             projectContainer.innerHTML += projectCard;

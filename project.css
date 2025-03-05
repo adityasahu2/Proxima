@@ -313,23 +313,6 @@ nav {
 .developer-role {
     color: rgba(255, 255, 255, 0.9);
     font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.social-links a {
-    color: white;
-    font-size: 1.5rem;
-    transition: transform 0.3s ease;
-}
-
-.social-links a:hover {
-    transform: translateY(-3px);
 }
 
 /* footer section */

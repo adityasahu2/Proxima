@@ -192,34 +192,6 @@ nav {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.carousel {
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.carousel-track {
-    display: flex;
-    height: 100%;
-    animation: carousel 15s linear infinite;
-}
-
-.carousel-track:hover {
-    animation-play-state: paused;
-}
-
-.carousel-item {
-    min-width: 100%;
-    height: 100%;
-    flex-shrink: 0;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 /* Coordinators Section */
 .coordinators {
     padding: 4rem 5%;
@@ -233,7 +205,7 @@ nav {
 
 .coordinator-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -776,6 +748,10 @@ nav {
     .hamburger.active span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
     }
+
+    .coordinator-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -792,6 +768,10 @@ nav {
     }
 
     .project-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .coordinator-cards{
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -895,16 +875,5 @@ nav {
 
     to {
         opacity: 1;
-    }
-}
-
-@keyframes carousel {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-300%);
-        /* Move by width of original slides */
     }
 }

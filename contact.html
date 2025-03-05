@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-content">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Fill out the form and we'll get back to you soon!</p>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required class="form-input" placeholder=" ">
+                        <label for="name" class="form-label">Name</label>
+                        <div class="form-line"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="company" required class="form-input" placeholder=" ">
+                        <label for="company" class="form-label">Company</label>
+                        <div class="form-line"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" required class="form-input" placeholder=" ">
+                        <label for="email" class="form-label">Email</label>
+                        <div class="form-line"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" required class="form-input form-textarea" placeholder=" "></textarea>
+                        <label for="message" class="form-label">Message</label>
+                        <div class="form-line"></div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
