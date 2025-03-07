@@ -45,9 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
             data.coordinator.forEach(person => {
                 let coordinator = `<div class="coordinator-card fade-in">
                 <img src="Assets/Coordinators/${person.img}" alt="Coordinator ${person.id}" class="coordinator-img">
+                <div class="flex2">
                 <h3>${person.name}</h3>
                 <p>${person.designation}</p>
                 <p>${person.department}</p>
+                </div>
             </div>`;
                 coordinators.innerHTML += coordinator;
             });
@@ -188,39 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(element);
     });
 
-    // Contact Form
-    document
-        .getElementById("contactForm")
-        .addEventListener("submit", function (e) {
-            e.preventDefault();
-
-            const button = this.querySelector(".submit-btn");
-            const icon = button.querySelector(".btn-icon");
-
-            // Add loading state
-            button.classList.add("loading");
-
-            // Simulate form submission
-            setTimeout(() => {
-                button.classList.remove("loading");
-                button.classList.add("success");
-                icon.innerHTML = '<i class="fas fa-check"></i>';
-
-                // Reset form and button after delay
-                setTimeout(() => {
-                    this.reset();
-                    button.classList.remove("success");
-                    icon.innerHTML = '<i class="fas fa-paper-plane"></i>';
-
-                    // Shake animation for success feedback
-                    button.style.animation = "shake 0.5s ease";
-                    setTimeout(() => {
-                        button.style.animation = "";
-                    }, 500);
-                }, 2000);
-            }, 1500);
-        });
-
+    
     // Add floating label animation for each input
     document.querySelectorAll(".form-input").forEach((input) => {
         input.addEventListener("focus", () => {
@@ -231,6 +201,95 @@ document.addEventListener("DOMContentLoaded", () => {
             if (!input.value) {
                 input.parentElement.classList.remove("focused");
             }
+        });
+    });
+    const gallery = document.getElementById("gallery")
+    const imageCount = 8;
+    for (let i = 1; i <= imageCount; i++) {
+        let img = `<div class="gallery-item">
+                <img src="Assets/Gallery/${i}.jpg" alt="Image ${i}">
+            </div>`
+        gallery.innerHTML += img;
+    }
+    // Variables
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImage = document.querySelector('.lightbox-image');
+    const lightboxClose = document.querySelector('.lightbox-close');
+    const lightboxPrev = document.querySelector('.lightbox-prev');
+    const lightboxNext = document.querySelector('.lightbox-next');
+    let currentIndex = 0;
+
+    // Apply initial animations with delay
+    galleryItems.forEach((item, index) => {
+        item.style.setProperty('--i', index);
+    });
+
+    // Lightbox functionality
+    galleryItems.forEach((item, index) => {
+        item.addEventListener('click', function() {
+            const img = this.querySelector('img');
+            lightboxImage.src = img.src;
+            lightbox.classList.add('active');
+            currentIndex = index;
+        });
+    });
+
+    lightboxClose.addEventListener('click', function() {
+        lightbox.classList.remove('active');
+    });
+
+    // Close lightbox with Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            lightbox.classList.remove('active');
+        }
+        
+        // Navigate with arrow keys
+        if (lightbox.classList.contains('active')) {
+            if (e.key === 'ArrowLeft') navigateLightbox('prev');
+            if (e.key === 'ArrowRight') navigateLightbox('next');
+        }
+    });
+
+    // Navigation buttons
+    lightboxPrev.addEventListener('click', function() {
+        navigateLightbox('prev');
+    });
+
+    lightboxNext.addEventListener('click', function() {
+        navigateLightbox('next');
+    });
+
+    function navigateLightbox(direction) {
+        if (direction === 'prev') {
+            currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+        } else {
+            currentIndex = (currentIndex + 1) % galleryItems.length;
+        }
+        
+        const newItem = galleryItems[currentIndex];
+        const img = newItem.querySelector('img');
+        
+        // Add fade animation
+        lightboxImage.style.opacity = 0;
+        setTimeout(() => {
+            lightboxImage.src = img.src;
+            lightboxImage.style.opacity = 1;
+        }, 200);
+    }
+
+    // Click outside content to close
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+            lightbox.classList.remove('active');
+        }
+    });
+    
+    // Handle image loading
+    document.querySelectorAll('.gallery-item img').forEach(img => {
+        img.addEventListener('load', function() {
+            this.parentElement.classList.add('loaded');
         });
     });
 });

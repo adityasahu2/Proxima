@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         const techElement = `<div class="tech-tag">${technology}</div>`;
                         document.getElementById('project-technologies').innerHTML += techElement;
                     })
-                    document.getElementById('project-video').src = `Assets/${project.id}/${project.video}`
+                    document.getElementById('project-video').src = `${project.video}`
                     project.gallery.forEach(image => {
                         const imageElement = `<div class="gallery-item">
                         <img src="Assets/${project.id}/${image.image}" alt="Project Image ${image.id}">

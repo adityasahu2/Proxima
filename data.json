@@ -2,24 +2,24 @@
     "coordinator": [
         {
             "id": "1",
-            "img": "s1.jpg",
-            "name": "Dr. John Doe",
-            "designation": "Head of Department",
-            "department": "Computer Science"
+            "img": "1.webp",
+            "name": "Dr. Anukampa Behera",
+            "designation": "Proxima Project Coordinator",
+            "department": "Asst. Professor, Siksha O Anusandhan University, Bhubaneswar"
         },
         {
             "id": "2",
-            "img": "s1.jpg",
-            "name": "Dr. John Doe",
-            "designation": "Head of Department",
-            "department": "Computer Science"
+            "img": "2.webp",
+            "name": "Prof. Gyana Ranjan Patra",
+            "designation": "Department ECE",
+            "department": "Asst. Professor, Siksha O Anusandhan University, Bhubaneswar"
         },
         {
             "id": "3",
-            "img": "s1.jpg",
-            "name": "Dr. John Doe",
-            "designation": "Head of Department",
-            "department": "Computer Science"
+            "img": "3.webp",
+            "name": "Dr. Sikata Samantray",
+            "designation": "Department ME",
+            "department": "Professor, Siksha O Anusandhan University, Bhubaneswar"
         }
     ],
     "projects": [
@@ -85,19 +85,19 @@
                 "Custom Sysmon Script",
                 "Wazuh"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/u4bjIh9y6GU?si=qtM-x0JfTMH07uZf",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -231,19 +231,19 @@
                 "Reactjs ",
                 "cloud - Aws s3"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/iNAf8BCKbb8?si=RMsM-iluejksGN9F",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -273,7 +273,7 @@
                 "IOT devices",
                 "Arduino idle"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/Ga875pkGcSU?si=ApOOt-5WFEY7LM7k",
             "gallery": [
                 {
                     "id": "1",
@@ -326,19 +326,19 @@
                 "JavaScript",
                 "Chart.js"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/5FJnu579Ymo?si=-ZXZOs8zZ0KjLRyO",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -379,19 +379,19 @@
                 "JavaScript",
                 "Chart.js"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/_IJvHyz7HyU?si=ZwosmHs3LLOYZNfK",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpeg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpeg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpeg"
                 }
             ],
             "developers": [
@@ -424,19 +424,19 @@
                 "CSS",
                 "C Language"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/mC2A-DRkGro?si=V-C-nXqQIvZpR28p",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpeg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpeg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -483,7 +483,7 @@
                 "scikit-learn",
                 "imbalanced-learn (SMOTE)"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/3WDbCddBqBE?si=BseWyAXP-q3bj6TU",
             "gallery": [
                 {
                     "id": "1",
@@ -541,19 +541,19 @@
                 "React with Redux",
                 "AI-powered Analytics"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/wqHHFJp8-tE?si=JmxlWcyY1yGAdef1",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -592,19 +592,19 @@
                 "Pandas",
                 "Scikit-Learn"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/ebPCy4VMTRM?si=fvidYdxAGYThFcZE",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -650,19 +650,19 @@
                 "Figma",
                 "ibis Paint X"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/yqM9YQl4vP0?si=A7S-83De_eX-b-1E",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.png"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.png"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.png"
                 }
             ],
             "developers": [
@@ -699,19 +699,19 @@
                 "TensorFlow",
                 "Streamlit"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/JgGJZyOfPIo?si=gs3JoWeXsV_aDxP2",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -751,19 +751,19 @@
                 "Prisma ORM",
                 "Shadcn UI"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/TJ8JYwKMTYU?si=T35OU4JaTq6xuexF",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.png"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.png"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.png"
                 }
             ],
             "developers": [
@@ -808,19 +808,19 @@
                 "CVZONE",
                 "WMI."
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/QAWMMAMiro0?si=Yzm4DoOg4Vn-cYm3",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.png"
                 }
             ],
             "developers": [
@@ -913,19 +913,19 @@
                 "Google Maps API",
                 "Twilio"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/GmZI7jzhrGo?si=-RVpAsfVBTPI5-w0",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -933,19 +933,19 @@
                     "id": "1",
                     "image": "1.jpg",
                     "name": "Rameswar Bisoyi",
-                    "role": "Android App Devloper"
+                    "role": "Android App Developer"
                 },
                 {
                     "id": "2",
                     "image": "2.jpg",
                     "name": "Pratik Kumar Panda",
-                    "role": "Web Devloper(Back-End)"
+                    "role": "Web Developer(Back-End)"
                 },
                 {
                     "id": "3",
                     "image": "3.jpg",
                     "name": "Pruthiviraj Sahu",
-                    "role": "UI/UX & Front-End Devloper"
+                    "role": "UI/UX & Front-End Developer"
                 }
             ]
         },
@@ -964,19 +964,19 @@
                 "log analysis",
                 "remote control\nCommunication: Serial communication between Arduino and AI system for synchronized operation\nEdge Computing: On-device processing for faster threat detection and response"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/p0mf6oxi5_8?si=UH_tGjzWjA1H39pN",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1075,19 +1075,19 @@
                 "MongoDB",
                 "Express.JS"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/vhH5jRr04gw?si=4_lL891AxIwRg5N1",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1132,19 +1132,19 @@
                 "ESP-32",
                 "Arduino IDE"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/mrDIIqL5YWI?si=e8x8ca40r17nSps5",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1186,19 +1186,19 @@
                 "CSS ",
                 "Ether.js"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/-x7Uf451HOM?si=inBT2Lrh5hj5p32D",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.png"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.png"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.png"
                 }
             ],
             "developers": [
@@ -1238,19 +1238,19 @@
                 "YOLO Object Detection",
                 "Firebase Cloud Storage"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/jCpl0XG9luM?si=6zhvyEdgWX_fMDu-",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1288,19 +1288,19 @@
                 "OpenCV",
                 "PyTorch\n"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/hXpQNBLgjtY?si=zjpxzeMQV7OOw31M",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1343,19 +1343,19 @@
                 "Aerodynamic Optimization",
                 "Sustainable Material Sourcing."
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/2NUILdP_Has?si=uX5w9KCAQaDPrk7B",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1391,19 +1391,19 @@
                 "Chemical Reactions Involvement",
                 "Polymer coating on Nylon 66."
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/NFhM2hRJLk8?si=epqT8ZmQQSoSDgB1",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1430,19 +1430,19 @@
             "technologies": [
                 "QForm"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/rhIcGnk1wp8?si=BW059y1Uml-WRhKZ",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -1460,7 +1460,7 @@
                 },
                 {
                     "id": "3",
-                    "image": "s1.jpg",
+                    "image": "3.jpg",
                     "name": "Pratik Ranjan Nayak",
                     "role": "Information collector"
                 }
@@ -1489,7 +1489,7 @@
                 "IOT",
                 "N.O.D.E.S. OS"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/5CjxBQZiZ64?si=j8dImbf_1us__H_w",
             "gallery": [
                 {
                     "id": "1",

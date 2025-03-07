@@ -136,11 +136,15 @@ nav {
 /* Technologies Section */
 .technologies-section {
     padding: 4rem 5%;
+}
+
+section{
     text-align: center;
 }
 
 .section-title {
     font-size: 2.5rem;
+    margin: auto;
     margin-bottom: 2rem;
     position: relative;
     display: inline-block;
@@ -196,7 +200,7 @@ nav {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    padding-bottom: 41.2%; 
+    padding-bottom: 41.2%;
     height: 0;
     overflow: hidden;
     margin: 2rem auto;
@@ -356,6 +360,12 @@ nav {
     font-size: 0.9rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .video-container{
+        padding-bottom: 56.1%;
+    }
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .footer-container {
@@ -423,6 +433,10 @@ nav {
     .hamburger.active span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
     }
+
+    .video-container{
+        padding-bottom: 56.1%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -437,5 +451,9 @@ nav {
     .tech-tag {
         padding: 0.6rem 1.2rem;
         font-size: 0.9rem;
+    }
+
+    .video-container{
+        padding-bottom: 56%;
     }
 }
