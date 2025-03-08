@@ -230,25 +230,6 @@ nav {
     transform: scale(1.05);
 }
 
-.coordinator-card::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg,
-            transparent,
-            rgba(255, 255, 255, 0.1),
-            transparent);
-    transform: rotate(45deg);
-    transition: all 0.3s ease;
-}
-
-.coordinator-card:hover::before {
-    animation: rotate 1s linear infinite;
-}
-
 .coordinator-img {
     width: 150px;
     height: 150px;
@@ -659,7 +640,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     align-items: center;
@@ -678,7 +659,7 @@ nav {
 .lightbox-content {
     position: relative;
     max-width: 90%;
-    max-height: 90%;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
