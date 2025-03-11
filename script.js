@@ -88,23 +88,29 @@ document.addEventListener("DOMContentLoaded", () => {
     function renderProjects() {
         // Clear current projects
         projectContainer.innerHTML = '';
-
+    
         if (projectsData.length === 0) {
             return; // If data hasn't loaded yet, don't proceed
         }
-
+    
         // Filter projects based on category and search term
         const filteredProjects = projectsData.filter(project => {
-            const matchesCategory = activeCategory === 'all' || project.category === activeCategory;
+            // Check if project matches the active category (always treat category as array)
+            const matchesCategory = activeCategory === 'all' || project.category.includes(activeCategory);
+            
+            // Check if project matches the search term
             const matchesSearch = project.title.toLowerCase().includes(searchTerm) ||
                 (project.detail && project.detail.toLowerCase().includes(searchTerm));
-
+    
             return matchesCategory && matchesSearch;
         });
-
-        // Create HTML for each project using your existing template
+    
+        // Create HTML for each project
         filteredProjects.forEach(project => {
-            let projectCard = `<div class="project-card fade-in" data-category="${project.category}" data-id="${project.id}">
+            // Join array categories with spaces for the data-category attribute
+            const categoryAttr = project.category.join(' ');
+                
+            let projectCard = `<div class="project-card fade-in" data-category="${categoryAttr}" data-id="${project.id}">
                 <img src="Assets/${project.id}/${project.logo}" alt="Project ${project.id}" class="project-img">
                 <div class="project-caption">
                     <h3>${project.title}</h3>

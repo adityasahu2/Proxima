@@ -66,7 +66,7 @@ nav {
     text-decoration: none;
     color: var(--text-color);
     position: relative;
-    padding: 5px 0;
+    padding: 10px 0px;
 }
 
 .nav-links a::after {
@@ -102,7 +102,7 @@ nav {
 /* Theme Toggle */
 .theme-toggle {
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 10px;
 }
 
 .hero {
@@ -484,6 +484,7 @@ nav {
 .filter-tags {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.8rem;
 }
 
@@ -793,10 +794,8 @@ nav {
     border-radius: 10px;
 }
 
-#title-heading{
-    color: rgb(220, 187, 0);
-    /* -webkit-text-stroke: 1px white; */
-    /* text-shadow: 0 0 7px #FFD700, 0 0 10px #FFD700, 0 0 21px #B8860B, 0 0 42px #B8860B, 0 0 82px #704214, 0 0 92px #704214, 0 0 102px #4D2E0D; */
+#heading-logo{
+    height: 6rem;
 }
 
 /* Responsive Design */
@@ -813,6 +812,10 @@ nav {
 @media screen and (max-width: 768px) {
     .hero-title {
         font-size: 2.5rem;
+    }
+
+    #heading-logo{
+        height: 4rem;
     }
 
     .hero-subtitle {
@@ -906,6 +909,10 @@ nav {
 @media screen and (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
+    }
+
+    #heading-logo{
+        height: 3.5rem;
     }
 
     .hero-subtitle {

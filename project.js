@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 if (project) {
                     // Update the DOM with project details
+                    document.title = `${project.title}`;
                     document.getElementById('project-title').textContent = project.title;
                     document.getElementById('project-description').textContent = project.description;
                     project.technologies.forEach(technology => {

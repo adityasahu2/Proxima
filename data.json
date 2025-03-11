@@ -26,7 +26,7 @@
         {
             "id": "1",
             "logo": "t1.png",
-            "category": "iot",
+            "category": ["iot","ai"],
             "title": "Avani",
             "description": "AVANI uses GIS and IoT sensors to collect urban data, analyzed by ML algorithms to identify optimal zones for tree plantations and sustainable construction. It generates 3D models and automated reports, aiding planners in enhancing greenery, reducing heat islands, and improving sustainability.",
             "technologies": [
@@ -75,12 +75,12 @@
         {
             "id": "2",
             "logo": "t2.png",
-            "category": "iot",
+            "category": ["cybersecurity"],
             "title": "ThreatSentry",
             "description": "The project addresses the need for a comprehensive cybersecurity solution by integrating Intrusion Detection (IDS) and Intrusion Prevention (IPS) systems with a custom Sysmon script. This solution enhances threat detection, real-time monitoring, and incident response, utilizing Wazuh, TheHive, and Cassandra for scalable security management.",
             "technologies": [
                 "Sysmon (System Monitor)",
-                "TheHive", 
+                "TheHive",
                 "Cassandra",
                 "Custom Sysmon Script",
                 "Wazuh"
@@ -118,7 +118,7 @@
         {
             "id": "3",
             "logo": "t3.png",
-            "category": "iot",
+            "category": ["iot","healthcare"],
             "title": "AngioSense",
             "description": "AngioSense combines PPG and Bio-Impedance technologies to detect blood flow issues and blockages. IoT sensors track SpO2, temperature, and pulse rate, sending data to the cloud for AI-driven analysis. Automated diagnostic reports are accessible via web and mobile apps, enabling real-time healthcare monitoring.",
             "technologies": [
@@ -164,7 +164,7 @@
         {
             "id": "4",
             "logo": "t4.png",
-            "category": "iot",
+            "category": ["iot"],
             "title": "Rakshati",
             "description": "Vehicular accidents cause preventable fatalities due to delayed emergency response, lack of nearby assistance, and unaffordable safety solutions. Rakshati addresses these challenges with an innovative, accessible, and life-saving device.",
             "technologies": [
@@ -216,7 +216,7 @@
         {
             "id": "5",
             "logo": "t5.png",
-            "category": "iot",
+            "category": ["ai","fullstack"],
             "title": "Eco Scrap",
             "description": "Waste management and scrap resale are unorganized, causing unfair pricing, excessive waste, and environmental issues. Individuals sell scrap cheaply, reusable items go to waste, and businesses struggle with bulk sales. Public waste accumulation persists due to the lack of an efficient complaint system, worsening cleanliness and sustainability\u00a0challenges",
             "technologies": [
@@ -258,7 +258,7 @@
         {
             "id": "6",
             "logo": "t6.png",
-            "category": "iot",
+            "category": ["iot","ai"],
             "title": "Prevenix",
             "description": "Impact of Unexpected Industrial Equipment Failures on Operational Efficiency and Cost Management in Industries",
             "technologies": [
@@ -306,7 +306,7 @@
         {
             "id": "7",
             "logo": "t7.png",
-            "category": "iot",
+            "category": ["ai","agriculture"],
             "title": "Bhumicare",
             "description": "Traditional farming faces inefficient water and fertilizer usage, declining soil health, unpredictable weather, and financial losses due to lack of real-time insights. Farmers rely on guesswork, leading to resource wastage and reduced productivity. A smart, AI-driven solution is needed to make agriculture more efficient and sustainable.",
             "technologies": [
@@ -359,7 +359,7 @@
         {
             "id": "8",
             "logo": "t8.png",
-            "category": "iot",
+            "category": ["iot","healthcare"],
             "title": "Mavex",
             "description": "",
             "technologies": [
@@ -406,7 +406,7 @@
         {
             "id": "9",
             "logo": "t9.png",
-            "category": "iot",
+            "category": ["iot","agriculture"],
             "title": "Smart-Bloom",
             "description": "The decline of natural pollinators like bees and butterflies due to habitat loss, pesticides, and climate change threatens global food production. Smart-Bloom addresses this challenge by providing an autonomous, efficient, and technology-driven solution for cross-pollination, ensuring sustainable and consistent crop yields.",
             "technologies": [
@@ -457,7 +457,7 @@
         {
             "id": "10",
             "logo": "t10.png",
-            "category": "iot",
+            "category": ["ai","fullstack"],
             "title": "Cryonics",
             "description": "Parents face challenges in interpreting infant cries, leading to stress and potential delays in identifying developmental disorders. Support for underprivileged families; Accessing reliable information is difficult, and impacting parental mental health and leading to either neglect or excessive medical consultations.",
             "technologies": [
@@ -481,15 +481,15 @@
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
@@ -516,7 +516,7 @@
         {
             "id": "11",
             "logo": "t11.png",
-            "category": "iot",
+            "category": ["iot","surveillance"],
             "title": "Safe-T Band",
             "description": "Industrial workers face risks from extreme conditions, while existing safety measures are reactive and impersonal. Female health needs, like fatigue and menstrual care, are often ignored. A real-time monitoring system is essential to proactively address environmental hazards and personal health concerns, ensuring workplace safety.",
             "technologies": [
@@ -574,7 +574,7 @@
         {
             "id": "12",
             "logo": "t12.jpeg",
-            "category": "iot",
+            "category": ["ai"],
             "title": "TaskFlow.ai",
             "description": "Manual task distribution in modern offices often leads to inefficiencies like overburdening or underutilizing employees and mismatched assignments. Varying roles, skills, and workloads make this process complex and time-consuming, highlighting the need for a smarter, automated solution to optimize task allocation and ensure balanced workloads.",
             "technologies": [
@@ -625,7 +625,7 @@
         {
             "id": "13",
             "logo": "t13.png",
-            "category": "iot",
+            "category": ["ai"],
             "title": "MindEase",
             "description": "Despite the rising prevalence of mental health challenges globally, access to professional support remains constrained by multiple barriers. Limited availability of mental health professionals, prohibitive costs, social stigma, and geographical limitations prevent individuals from receiving timely intervention and continuous psychological support when needed.",
             "technologies": [
@@ -683,7 +683,7 @@
         {
             "id": "14",
             "logo": "t14.png",
-            "category": "iot",
+            "category": ["iot","ai","system"],
             "title": "CIPER",
             "description": "Rising road accidents due to delayed driver response, poor situational awareness, and ineffective collision prediction highlight the need for a cost-effective, intelligent safety system. Existing ADAS solutions rely on expensive LiDAR/RADAR, making them inaccessible for mid-range vehicles and slowing adoption.",
             "technologies": [
@@ -732,7 +732,7 @@
         {
             "id": "15",
             "logo": "t15.jpg",
-            "category": "iot",
+            "category": ["ai"],
             "title": "AI Resume Builder",
             "description": "1.Traditional and not so ATS-friendly resume generators .\n2. Resumes generated by various LLMs lack customization and SaaS-grade workflows.\n3. Existing solutions often have a complex interface and do have way too many options of resume format that confuse the user.",
             "technologies": [
@@ -784,7 +784,7 @@
         {
             "id": "16",
             "logo": "t16.jpg",
-            "category": "iot",
+            "category": ["ai","fullstack"],
             "title": "CLEAR CHECK",
             "description": "Modern online assessments face sophisticated cheating tactics like hidden earpieces, secondary screens, remote access tools, and AI-powered environments. Traditional proctoring fails to detect these, risking academic integrity. Moreover, strict security measures can exclude disabled users, making exams unfair and inaccessible.",
             "technologies": [
@@ -840,60 +840,53 @@
         },
         {
             "id": "17",
-            "logo": "t17.jpg",
-            "category": "iot",
-            "title": "LLMinds",
-            "description": "Users today interact with various Large Language Models (LLMs), each have distinct strengths, limitations, and response styles. Relying on a single model can lead to incomplete or biased answers.\u200b However, comparing outputs from multiple models can be a time-consuming process, often leading to inconsistent insights and challenges in identifying the most accurate or optimal solutions.",
+            "logo": "t17.png",
+            "category": ["mechanical"],
+            "title": "Forging with Torsion",
+            "description": "Forging done experimentally can sometimes produce errors, which is difficult to rectify since we are unaware of the material flow. Also experimentation is costly in some cases. One similar example is FWT.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "FastAPI",
-                "Pydantic",
-                "SQLAlchemy",
-                "SQLite",
-                "Alembic",
-                "JWT",
-                "OAuth2",
-                "Bcrypt",
-                "OpenRouter API",
-                "HTTPX",
-                "Asyncio"
+                "QForm"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/rhIcGnk1wp8?si=BW059y1Uml-WRhKZ",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
                 {
                     "id": "1",
                     "image": "1.jpg",
-                    "name": "Anish Kumar",
-                    "role": "Backend Developer"
+                    "name": "Abishanka Choudhury",
+                    "role": "Manager"
                 },
                 {
                     "id": "2",
                     "image": "2.jpg",
-                    "name": "Ankita Rout",
-                    "role": "Frontend Developer"
+                    "name": "Dev Mallick",
+                    "role": "Information collector and analyzer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Pratik Ranjan Nayak",
+                    "role": "Information collector"
                 }
             ]
         },
         {
             "id": "18",
             "logo": "t18.png",
-            "category": "iot",
+            "category": ["ai","fullstack"],
             "title": "ScrapDhan",
             "description": "The scrap and waste management industry faces inefficiencies due to fluctuating prices, manual buyer-seller communication, unstandardized scrap classification, and insecure transactions. Households and industries struggle with proper scrap disposal, while industries lack a streamlined marketplace for bulk trading and efficient dealer notifications.",
             "technologies": [
@@ -946,7 +939,7 @@
         {
             "id": "19",
             "logo": "t19.jpg",
-            "category": "iot",
+            "category": ["ai","surveillance"],
             "title": "ASTRANET",
             "description": "Drones are an increasing threat in modern and future warfare. They are used for surveillance, smuggling, and even carrying out attacks. Traditional defense systems using physical missiles are costly and inefficient against swarm drone attacks. There is an urgent need for a cost-effective and efficient anti-drone system",
             "technologies": [
@@ -997,66 +990,66 @@
         {
             "id": "20",
             "logo": "t20.png",
-            "category": "iot",
-            "title": "Ekaayam",
-            "detail": "IoT-based home automation system with voice control",
-            "description": "Major event platforms like Paytm Insider and BookMyShow focus only on large, paid events, leaving local and free events without proper visibility. Additionally, users lack a single platform to book restaurants, entertainment spots, courses, mentorships, and marketing services efficiently.",
+            "category": ["iot","networking"],
+            "title": "N.O.D.E.S.",
+            "description": "In many remote, rural, or low-connectivity areas, access to digital resources, web applications, and IoT-based automation is severely limited due to the lack of reliable internet infrastructure. This creates challenges in education, industrial automation, healthcare, and data sharing, restricting technological advancements and efficient communication.",
             "technologies": [
-                "Flask",
-                "Gunicorn",
-                "Apache",
-                "NGINX",
-                "NodeJs",
-                "Firebase",
-                "SQLAlchemy",
-                "PIL",
-                "Tensorflow",
-                "Keras",
-                "SkLearn",
-                "Numpy",
-                "CUDA",
-                "CUDNN",
-                "ReactJs",
-                "Tailwind",
+                "HTML",
                 "CSS",
-                "Bootstrap5",
-                "Axios",
-                "AppScript."
+                "JS",
+                "Node JS",
+                "React JS",
+                "Python",
+                "C",
+                "Assembly",
+                "PHP",
+                "MySQL",
+                "Flask",
+                "Apache",
+                "Llama-GPT",
+                "IOT",
+                "N.O.D.E.S. OS"
             ],
-            "video": "video.mp4",
+            "video": "https://www.youtube.com/embed/5CjxBQZiZ64?si=j8dImbf_1us__H_w",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "sample.jpg"
+                    "image": "g1.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "sample.jpg"
+                    "image": "g2.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "sample.jpg"
+                    "image": "g3.jpg"
                 }
             ],
             "developers": [
                 {
                     "id": "1",
                     "image": "1.jpg",
-                    "name": "Balaji Aryan Singh",
-                    "role": "Full-Stack Developer"
+                    "name": "Shreyash Mohapatra",
+                    "role": "Full-Stack Developer, System Architect, and Embedded Systems Engineer"
                 },
                 {
                     "id": "2",
                     "image": "2.jpg",
-                    "name": "Anirban Bose",
-                    "role": "Full-Stack Developer"
+                    "name": "Arpita Maharana",
+                    "role": "Full Stack Developer"
+                },
+                {
+                    "id": "3",
+                    "image": "3.jpg",
+                    "name": "Roshan Mohapatra",
+                    "role": "Full Stack Developer"
                 }
             ]
         },
         {
             "id": "21",
             "logo": "t21.png",
-            "category": "iot",
+            "category": ["fullstack","mobile"],
             "title": "DUNKI",
             "description": "In todays competitive world, small retailers struggle with limited visibility, high procurement costs, and inefficient order fulfillment. These challenges make it harder for them to attract customers, offer competitive pricing, and compete with larger businesses that have stronger resources, broader reach, and faster service.",
             "technologies": [
@@ -1108,7 +1101,7 @@
         {
             "id": "22",
             "logo": "t22.jpg",
-            "category": "iot",
+            "category": ["fullstack"],
             "title": "Kisan-Seva",
             "detail": "IoT-based home automation system with voice control",
             "description": "Farmers face limited market access, financial illiteracy, and connectivity issues, preventing them from maximizing their income. Intermediaries take a significant share of their earnings, and many lack access to essential resources such as government schemes and financial support.",
@@ -1165,7 +1158,7 @@
         {
             "id": "23",
             "logo": "t23.png",
-            "category": "iot",
+            "category": ["fullstack","blockchain"],
             "title": "EthGroww",
             "detail": "IoT-based home automation system with voice control",
             "description": "Millions struggle to access credit due to strict documentation, high-interest rates, and inefficient processes. This exclusion deepens economic inequality, limiting opportunities for individuals and small businesses to improve their livelihoods.",
@@ -1219,7 +1212,7 @@
         {
             "id": "24",
             "logo": "t24.png",
-            "category": "iot",
+            "category": ["iot","surveillance"],
             "title": "Red2Green",
             "description": "Urban traffic congestion causes delays, pollution, and inefficiencies. Traditional systems are slow and centralized. A real-time, AI-driven edge computing solution is needed to optimize traffic flow, reduce stops, and enhance roadsafety.",
             "technologies": [
@@ -1271,7 +1264,7 @@
         {
             "id": "25",
             "logo": "t25.png",
-            "category": "iot",
+            "category": ["ai"],
             "title": "DeepGuard",
             "detail": "IoT-based home automation system with voice control",
             "description": "Deepfakes are AI-generated media that manipulate videos or images to mimic real people, often indistinguishable from authentic content. While useful in entertainment, they pose threats like misinformation and fraud. This project develops an AI-driven detection system to identify and prevent the misuse of deepfake technology.",
@@ -1321,7 +1314,7 @@
         {
             "id": "26",
             "logo": "t26.png",
-            "category": "iot",
+            "category": ["mechanical"],
             "title": "Splen Electric",
             "description": "The growing demand for electric vehicles and energy storage has surged the need for efficient, high-performance batteries. Lithium-ion batteries, known for their superior energy density and longevity, dominate the market. However, high production costs and supply chain constraints pose challenges to widespread affordability and accessibility.",
             "technologies": [
@@ -1376,7 +1369,7 @@
         {
             "id": "27",
             "logo": "t27.png",
-            "category": "iot",
+            "category": ["mechanical"],
             "title": "Mo-Shield Airbags",
             "description": "Two-wheeler road accidents often result in serious injuries or fatalities due to the lack of protective safety features, such as airbags. Despite helmets and protective gear, these are insufficient in high-impact situations. The challenge lies in developing effective airbag systems that enhance rider safety while maintaining vehicle performance, affordability, and user convenience.",
             "technologies": [
@@ -1417,73 +1410,86 @@
         },
         {
             "id": "28",
-            "logo": "t28.png",
-            "category": "iot",
-            "title": "Forging with Torsion",
-            "description": "Forging done experimentally can sometimes produce errors, which is difficult to rectify since we are unaware of the material flow. Also experimentation is costly in some cases. One similar example is FWT.",
+            "logo": "t28.jpg",
+            "category": ["fullstack"],
+            "title": "Ekaayam",
+            "detail": "IoT-based home automation system with voice control",
+            "description": "Major event platforms like Paytm Insider and BookMyShow focus only on large, paid events, leaving local and free events without proper visibility. Additionally, users lack a single platform to book restaurants, entertainment spots, courses, mentorships, and marketing services efficiently.",
             "technologies": [
-                "QForm"
+                "Flask",
+                "Gunicorn",
+                "Apache",
+                "NGINX",
+                "NodeJs",
+                "Firebase",
+                "SQLAlchemy",
+                "PIL",
+                "Tensorflow",
+                "Keras",
+                "SkLearn",
+                "Numpy",
+                "CUDA",
+                "CUDNN",
+                "ReactJs",
+                "Tailwind",
+                "CSS",
+                "Bootstrap5",
+                "Axios",
+                "AppScript."
             ],
-            "video": "https://www.youtube.com/embed/rhIcGnk1wp8?si=BW059y1Uml-WRhKZ",
+            "video": "video.mp4",
             "gallery": [
                 {
                     "id": "1",
-                    "image": "g1.jpg"
+                    "image": "sample.jpg"
                 },
                 {
                     "id": "2",
-                    "image": "g2.jpg"
+                    "image": "sample.jpg"
                 },
                 {
                     "id": "3",
-                    "image": "g3.jpg"
+                    "image": "sample.jpg"
                 }
             ],
             "developers": [
                 {
                     "id": "1",
                     "image": "1.jpg",
-                    "name": "Abishanka Choudhury",
-                    "role": "Manager"
+                    "name": "Balaji Aryan Singh",
+                    "role": "Full-Stack Developer"
                 },
                 {
                     "id": "2",
                     "image": "2.jpg",
-                    "name": "Dev Mallick",
-                    "role": "Information collector and analyzer"
-                },
-                {
-                    "id": "3",
-                    "image": "3.jpg",
-                    "name": "Pratik Ranjan Nayak",
-                    "role": "Information collector"
+                    "name": "Anirban Bose",
+                    "role": "Full-Stack Developer"
                 }
             ]
         },
         {
             "id": "29",
             "logo": "t29.png",
-            "category": "iot",
-            "title": "N.O.D.E.S.",
-            "description": "In many remote, rural, or low-connectivity areas, access to digital resources, web applications, and IoT-based automation is severely limited due to the lack of reliable internet infrastructure. This creates challenges in education, industrial automation, healthcare, and data sharing, restricting technological advancements and efficient communication.",
+            "category": ["ai","fullstack"],
+            "title": "LLMinds",
+            "description": "Users today interact with various Large Language Models (LLMs), each have distinct strengths, limitations, and response styles. Relying on a single model can lead to incomplete or biased answers.\u200b However, comparing outputs from multiple models can be a time-consuming process, often leading to inconsistent insights and challenges in identifying the most accurate or optimal solutions.",
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS",
-                "Node JS",
-                "React JS",
-                "Python",
-                "C",
-                "Assembly",
-                "PHP",
-                "MySQL",
-                "Flask",
-                "Apache",
-                "Llama-GPT",
-                "IOT",
-                "N.O.D.E.S. OS"
+                "JavaScript",
+                "FastAPI",
+                "Pydantic",
+                "SQLAlchemy",
+                "SQLite",
+                "Alembic",
+                "JWT",
+                "OAuth2",
+                "Bcrypt",
+                "OpenRouter API",
+                "HTTPX",
+                "Asyncio"
             ],
-            "video": "https://www.youtube.com/embed/5CjxBQZiZ64?si=j8dImbf_1us__H_w",
+            "video": "video.mp4",
             "gallery": [
                 {
                     "id": "1",
@@ -1502,20 +1508,14 @@
                 {
                     "id": "1",
                     "image": "1.jpg",
-                    "name": "Shreyash Mohapatra",
-                    "role": "Full-Stack Developer, System Architect, and Embedded Systems Engineer"
+                    "name": "Anish Kumar",
+                    "role": "Backend Developer"
                 },
                 {
                     "id": "2",
                     "image": "2.jpg",
-                    "name": "Arpita Maharana",
-                    "role": "Full Stack Developer"
-                },
-                {
-                    "id": "3",
-                    "image": "3.jpg",
-                    "name": "Roshan Mohapatra",
-                    "role": "Full Stack Developer"
+                    "name": "Ankita Rout",
+                    "role": "Frontend Developer"
                 }
             ]
         }
