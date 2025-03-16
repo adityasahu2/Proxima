@@ -1410,7 +1410,7 @@
         },
         {
             "id": "28",
-            "logo": "t28.jpg",
+            "logo": "t28.png",
             "category": ["fullstack"],
             "title": "Ekaayam",
             "detail": "IoT-based home automation system with voice control",
@@ -1469,7 +1469,7 @@
         },
         {
             "id": "29",
-            "logo": "t29.png",
+            "logo": "t29.jpg",
             "category": ["ai","fullstack"],
             "title": "LLMinds",
             "description": "Users today interact with various Large Language Models (LLMs), each have distinct strengths, limitations, and response styles. Relying on a single model can lead to incomplete or biased answers.\u200b However, comparing outputs from multiple models can be a time-consuming process, often leading to inconsistent insights and challenges in identifying the most accurate or optimal solutions.",
